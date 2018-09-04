@@ -1,0 +1,58 @@
+body {
+  background-color: #f8fafb;
+  color: #2b2b2b;
+}
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin: 2rem 0 2rem 0;
+}
+
+.list-group-item {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
+  align-items: center;
+  align-content: space-between;
+  font-size: 0.9rem;
+  margin-bottom: 0.7rem;	
+  border: none;
+  -webkit-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 11px 0px rgba(0,0,0,0.2);
+}
+
+div.contact-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  justify-self: center;
+}
+
+div.contact-img img {
+  width: 100%;
+}
+
+div.contact-name {
+  font-weight: 700;
+}
+
+div.contact-del-btn {
+  justify-self: end;
+}
+
+div.contact-del-btn button {
+  border-radius: 50%;
+}
+
+li.list-group-item:first-child,li.list-group-item:last-child {
+  border-radius: 0;
+}
+
+button.btn-add-contact {
+  margin-bottom: 1rem;
+}
